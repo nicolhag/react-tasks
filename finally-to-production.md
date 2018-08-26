@@ -1,4 +1,4 @@
-# Finally, to production!
+# Finally, off to production!
 
 ## The very first React app
 
