@@ -88,11 +88,7 @@ const App = () => (
 {% code-tabs %}
 {% code-tabs-item title="index.js" %}
 ```jsx
-import { Component } from 'react';
-
-...
-
-class App extends Component{
+class App extends React.Component{
     render(){
         return (
             <div>
@@ -123,7 +119,7 @@ The first assignment is to play around with the code we just dissected:
 
 {% embed data="{\"url\":\"https://codesandbox.io/s/wq3j418p9w\",\"type\":\"rich\",\"title\":\"wq3j418p9w - CodeSandbox\",\"description\":\"The online code editor tailored for web applications\",\"icon\":{\"type\":\"icon\",\"url\":\"https://codesandbox.io/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://codesandbox.io/api/v1/sandboxes/wq3j418p9w/screenshot.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525},\"embed\":{\"type\":\"reader\",\"url\":\"https://codesandbox.io/embed/wq3j418p9w\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50%;\\\"><iframe src=\\\"https://codesandbox.io/embed/wq3j418p9w\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":2},\"caption\":\"Well, hello there React!\"}" %}
 
-Feel free to alter the code at [https://codesandbox.io/s/wq3j418p9w](https://codesandbox.io/s/wq3j418p9w). 
+Get acquainted with the code at [https://codesandbox.io/s/wq3j418p9w](https://codesandbox.io/s/wq3j418p9w), and edit the code to see what happens! Notice that we have a `index.html` file under the `/public` folder. This file contains the `div` with the `id` "root", which we rendered to in `index.js`
 
 
 
