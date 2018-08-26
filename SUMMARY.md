@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome to the Gitbook!](README.md)
+* [Welcome to a React workshop!](README.md)
 * [Introduction](introduction.md)
 * [Your very first React app](your-very-first-react-app.md)
 * [Getting familiar with JSX](jsx-acquaintance.md)
