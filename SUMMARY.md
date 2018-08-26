@@ -1,4 +1,6 @@
 # Table of contents
 
-* [Your very first first React Application!](README.md)
-* [Testpage](testpage.md)
+* [Introduction](README.md)
+* [Introduction](introduction.md)
+* [Your very first first React Application!](your-very-first-first-react-application.md)
+
