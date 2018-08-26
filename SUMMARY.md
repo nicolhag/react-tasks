@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introduction](introduction/cover.md)
 * [Your very first first React Application!](first-application/cover.md)
