@@ -35,4 +35,3 @@ Try to change the content of the `<h1>` tag in the `App.js` file. If you have th
 ### Assignments
 
 Your assignments for this week can be found [here](https://github.com/nicolhag/react-tasks/blob/master/my-first-react-app/README.md).
-
