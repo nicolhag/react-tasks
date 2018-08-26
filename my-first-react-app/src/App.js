@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import { get } from 'axios';
+
 class App extends Component {
   render() {
     return (
