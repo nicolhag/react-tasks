@@ -2,7 +2,7 @@
 description: 'try adding a css-file, and import it in the HTML'
 ---
 
-# JSX acquaintance
+# Getting familiar with JSX
 
 [https://reactjs.org/docs/introducing-jsx.html](https://reactjs.org/docs/introducing-jsx.html)
 
