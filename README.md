@@ -1,4 +1,4 @@
-# README
+# Welcome to the Gitbook!
 
 Through these exercises you will learn how to create your very own React application🎉 Luckily for us, React has very useful and up-to-date documentation at [reactjs.org](https://reactjs.org/docs/getting-started.html). Even experienced React-developers confer with this documentation weekly, so you should try it out as well; you are encouraged to use the docs actively throughout solving the assignments that follows. But still, remember to ask group tutors and co-students as well. We are here to help :\)
 

@@ -1,5 +1,5 @@
 # Table of contents
 
-* [README](README.md)
+* [Welcome to the Gitbook!](README.md)
 * [Introduction](introduction.md)
 
