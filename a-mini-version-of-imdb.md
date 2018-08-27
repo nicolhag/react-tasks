@@ -10,7 +10,7 @@ The last assignment is mostly up to your self what you want to focus on. Now, us
 
 One of us, Kristofer, chose to begin to implement a pretty cool movie app, showing a list of poster, where you can click on each of them and get more information about the movie. Take a look, and click around!
 
-{% embed data="{\"url\":\"https://w67l4467lk.codesandbox.io/345940\",\"type\":\"link\",\"title\":\"React App\",\"icon\":{\"type\":\"icon\",\"url\":\"https://w67l4467lk.codesandbox.io/favicon.ico\",\"aspectRatio\":0}}" %}
+{% embed data="{\"url\":\"https://w67l4467lk.codesandbox.io/\",\"type\":\"link\",\"title\":\"React App\",\"icon\":{\"type\":\"icon\",\"url\":\"https://w67l4467lk.codesandbox.io/favicon.ico\",\"aspectRatio\":0}}" %}
 
 ## Second example: add a search field or dropdown to filter!
 
