@@ -4,7 +4,14 @@ Through these exercises you will learn how to create your very own React applica
 
 ## About the tasks at hand
 
-For simplicity's sake, we have chosen to put the the assignments up on [codesandbox.io](https://codesandbox.io). The site creates an in-browser React-environment for us, letting us to skip the setup-part \(for now\), as well as giving us code hints and a useful developer environment for our purposes. In the last assignment, you will be able to quite easily make the setup yourself.
+For simplicity's sake, we have chosen to put the the assignments up on [codesandbox.io](https://codesandbox.io). The site creates an in-browser React-environment for us, letting us to skip the setup-part \(for now\), as well as giving us code hints and a useful developer environment for our purposes. 
+
+## The structure of this Gitbook
+
+Each chapter will contain at least two elements:
+
+* A link to an assignment at CodeSandbox, where precode is given
+* Explanation of the code given
 
 ## 
 
