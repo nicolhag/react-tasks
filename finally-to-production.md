@@ -1,12 +1,12 @@
 ---
-description: 'This assignment is highly optional, but very fun(c) to!'
+description: 'This assignment is highly optional, but very rewarding and fun(c) to do.'
 ---
 
-# Finally, off to production!
+# Finally, off to production! 🚀
 
 ## Make a public React app! {#gjør-nettsiden-din-offentlig}
 
-For now, we have worked in CodeSandbox. But, wouldn't it been fun to make it public? Nothing like showing off to your family and friends!
+For now, we have worked in CodeSandbox. But, wouldn't it be great fun to make it public? Nothing like showing off to your family and friends!
 
 ### Add version control {#sett-opp-versjonskontroll-på-koden}
 
@@ -28,9 +28,11 @@ In the right corner at Heroku, click the "New" button, and choose "Create new ap
 
 **2. Connect you app to Heroku**
 
-Go to the "Deploy" tab at the Heroku website, if you're not there already. As you can see, there a multiple ways to setup the deployment. Choose the Github integration and follow the instructions. We recommend using Automatic Deploys. This way, your site will always be updated at your Heroku app when new code finds it ways to the `master`-branch.
+Go to the "Deploy" tab at the Heroku website, if you're not there already. As you can see, there a multiple ways to setup the deployment. Choose the Github integration and follow the instructions. Heroku will need access to the repositories connected to your Github account - if you feel uncomfortable with this, don't do it :\) 
 
-If you encounter the following error message while deploying, please add `Node` as buildpack under the app setting, and you should be ready to go!
+Inside Heroku, we recommend using Automatic Deploys. This way, your site will always be updated at your Heroku app updates every time new code finds its way to the `master`-branch.
+
+If you encounter the following error message while deploying: 
 
 ```text
 ! No default language could be detected for this app.
@@ -39,9 +41,9 @@ See https://devcenter.heroku.com/articles/buildpacks
 ! Push failed
 ```
 
-...push failed!?
+...please add `Node` as buildpack under the app settings, and you _should_ be ready to go!
 
-Really, there's not much more to it than that. Congratulations, you have set your app into production! 🎉
+Really, there's not much more to it than that. Congratulations, you have set your app into production with automatic deploys! 🎉
 
 **Bonus: setup a custom domain**
 

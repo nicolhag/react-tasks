@@ -1,12 +1,10 @@
 ---
-description: >-
-  It's time to make our app a little more interesting by hooking it up to a
-  server!
+description: "It's time to make our app a little more interesting by hooking it up to a server! \U0001F913"
 ---
 
 # Connecting to a server
 
-Hopefully, you now have created a `Movie` component, and rendered multiple of them in the `MovieList` component. In order to make the application richer, we need to connect to a API.
+Hopefully, you now have created a `Movie` component, and rendered multiple of them in the `MovieList` component. In order to make the application more dynamic, we need to connect to a API.
 
 ## A solution to previous assignment
 
@@ -58,7 +56,7 @@ class App extends React.Component {
 }
 ```
 
-Allright, this may seem like a lot - but we will explain it in bite-size portions. 
+Allright, this may seem like a lot - but we will explain it all in nice, bite-sized portions. 
 
 ### React.Component and the component lifecycle
 
@@ -72,9 +70,9 @@ This is how you define a class component in React. This makes it possible to add
 
 * ...the first component mount \(the first time the component is injected into the DOM\)
 * ...every render
-* ...unmounting the component \(essentially leaving the component\)
+* ...unmounting the component \(essentially this means when leaving the component, and detaching it from the [DOM](https://reactjs.org/docs/react-dom.html)\)
 
-We can also use lifecycle methods to decide when the component should re-render \(think of re-rendering as updating the HTML at our website\). In this assignment, we are using the lifecycle method `componentDidMount` :
+We can also use lifecycle methods to decide when the component should re-render. You can think of _re-rendering_ as updating the HTML at our website. In this assignment, we are using one of the lifecycle methods - `componentDidMount` :
 
 ```text
   async componentDidMount() {
@@ -94,11 +92,11 @@ class App extends React.Component {
 }
 ```
 
-In the beginning of our class component, we have defined a component state. This is the data that only concerns the component itself, and is very powerful in React app development! In the state, we define the variables that can change _inside_ the component. This is so that we can render different things, or render things differently, based on the state \(props mentioned in the previous section can also be used for this\). 
+In the beginning of our class component, we have defined a component state. This is the data that only concerns the component itself, and is very powerful in React app development! In the state, we define the variables that can change _inside_ the component throughout its lifecycle. This is so that we can render different things, or render things differently, based on the state \(props mentioned in the previous section can also be used for this\). 
 
 ### The render function
 
-In a React class component, you actually only _really_ need one function - the `render` function:
+In a React class component, you actually only _really_ need to implement one function - the `render` function:
 
 ```jsx
  render() {
@@ -113,7 +111,9 @@ In a React class component, you actually only _really_ need one function - the `
   }
 ```
 
-In this example, we render differently based on the component _state._ If the state's `pending` variable is sat, we only render a loading-screen \(kindof\). Elsewise, we return our app!
+The `render` should return what you want to render to the website from the Component in question. 
+
+In this example, we render differently based on the component _state._ If the state's `pending` variable is sat, we only render a loading-screen \(kindof\). Elsewise, we return our full app containing the `MovieList`!
 
 So, in order to change the _state_, we need to set the state, which is what happens in `componentDidMount`:
 
@@ -121,7 +121,7 @@ So, in order to change the _state_, we need to set the state, which is what happ
 async componentDidMount() {
     this.setState({ pending: true });
     ...
-  }
+}
 ```
 
 This is the React way to change the component's state. Finally, inside `componentDidMount` , the API is called, and the state is set accordingly.
@@ -139,13 +139,19 @@ try {
 
 ## The assignment: connecting the movie component and the API data
 
-This assignment is available at [https://codesandbox.io/s/rmw0m9jjlp](https://codesandbox.io/s/rmw0m9jjlp) 
+This assignment precode is found at [https://codesandbox.io/s/rmw0m9jjlp](https://codesandbox.io/s/rmw0m9jjlp), and the tasks are found at the bottom of this page.
+
+{% hint style="info" %}
+The network at the University of Oslo is probably one of the fastest in the country. Therefore, you might not acutally see the Loading-screen working at all in the below iframe. To fix this "issue", you may simulate slower network speed by opening the Chrome Devtools, clicking the Network pane and select the arrow besides **online:**
+{% endhint %}
+
+![](.gitbook/assets/screen-shot-2018-09-17-at-19.23.54.png)
 
 {% embed data="{\"url\":\"https://codesandbox.io/s/rmw0m9jjlp\",\"type\":\"rich\",\"title\":\"rmw0m9jjlp - CodeSandbox\",\"description\":\"The online code editor tailored for web applications\",\"icon\":{\"type\":\"icon\",\"url\":\"https://codesandbox.io/favicon.ico\",\"aspectRatio\":0},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://codesandbox.io/api/v1/sandboxes/rmw0m9jjlp/screenshot.png\",\"width\":1200,\"height\":630,\"aspectRatio\":0.525},\"embed\":{\"type\":\"reader\",\"url\":\"https://codesandbox.io/embed/rmw0m9jjlp\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 50%;\\\"><iframe src=\\\"https://codesandbox.io/embed/rmw0m9jjlp\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen></iframe></div>\",\"aspectRatio\":2},\"caption\":\"With minor alterations, the API data is shown in our app!\"}" %}
 
 ### The response
 
-OK, so after adding the API call, the `movies` array is now populated from the server. The array consists of object, looking like the following example:
+Allright, so after adding the API call, the `movies` array is now populated from the server. The array consists of object, looking like the following example:
 
 {% code-tabs %}
 {% code-tabs-item title="Example API response" %}
@@ -179,6 +185,6 @@ OK, so after adding the API call, the `movies` array is now populated from the s
 
 As we already have taken care of showing the `title` of the movies from previous assignments, we are already rendering that! Now:
 
-1. Choose 2-3 other variables that you want to show in the `Movie` component \(e.g., `release_date`, `vote_average` and `vote_count`\).
-2. Also add an `img` inside the `Movie` component, with the `src` attribute sat to the `poster_path` given from the API.
+1. Choose 2-3 other variables that you want to show in the `Movie` component \(suggestions:`release_date`, `vote_average` and `vote_count`\).
+2. Also, add an `img` inside the `Movie` component, with the `src` attribute sat to the `poster_path` given from the API.
 
