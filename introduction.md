@@ -13,5 +13,11 @@ Each chapter will contain at least two elements:
 * Explanation of the code given
 * A link to an assignment at CodeSandbox, where precode is given
 
-## 
+## Working on the examples locally on your machine
+
+All of the example React projects from CodeSandbox can be setup locally on your machine. Follow the instructions below:   
+- [Install Node and NPM](https://nodejs.org/en/download/)  
+- Click the "Download" button inside your CodeSandbox application  
+- Navigate to the folder in the terminal and run `npm install` , followed by `npm start`.   
+- Go to [http://localhost:3000/](http://localhost:3000/) in your browser, and your site should appear!
 
