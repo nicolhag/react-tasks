@@ -15,9 +15,11 @@ Each chapter will contain at least two elements:
 
 ## Working on the examples locally on your machine
 
-All of the example React projects from CodeSandbox can be setup locally on your machine. Follow the instructions below:   
+All of the example React projects from CodeSandbox can be setup locally on your machine. You do not need to do this for solving the assignments in this Gitbook, but you may use the guide below if you want to further develop a React application locally. 
+
+Guide:   
 - [Install Node and NPM](https://nodejs.org/en/download/)  
-- Click the "Download" button inside your CodeSandbox application  
+- Click the "Download" button inside your CodeSandbox application, and unzip the folder.  
 - Navigate to the folder in the terminal and run `npm install` , followed by `npm start`.   
 - Go to [http://localhost:3000/](http://localhost:3000/) in your browser, and your site should appear!
 
